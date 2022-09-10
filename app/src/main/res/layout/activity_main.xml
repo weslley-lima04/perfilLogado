@@ -36,7 +36,7 @@
         android:layout_height="80dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/border"
-        android:src="#ccc"
+        android:src="@drawable/ic_baseline_person"
         app:layout_constraintStart_toStartOf="@id/txtPerfil"
         app:layout_constraintTop_toBottomOf="@id/txtPerfil" />
 
@@ -90,5 +90,58 @@
         app:layout_constraintStart_toStartOf="@id/img_perfil"
         app:layout_constraintTop_toBottomOf="@id/img_perfil"
         app:menu="@menu/menu_perfil" />
+
+    <RelativeLayout
+        app:layout_constraintStart_toStartOf="@id/nav_menuPerfil"
+        app:layout_constraintTop_toBottomOf="@id/nav_menuPerfil"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#ff740c"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtstatusPedidos1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status dos"
+            android:textColor="@color/white"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/txtstatusPedidos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seus pedidos"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/txtstatusPedidos1"
+            android:layout_alignStart="@id/txtstatusPedidos1"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+
+        android:id="@+id/ultimo_pedido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
