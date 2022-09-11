@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/drawable/border.xml" value="0.224" />
+        <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/drawable/fundo_comidas.xml" value="0.224" />
         <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/drawable/wave.xml" value="0.224" />
         <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/layout/activity_main.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/layout/fragment_info_conta.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/layout/infoconta_layout.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/menu/menu_perfil.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/Meu Computador/AndroidStudioProjects/perfilLogado/app/src/main/res/menu/menu_sobre.xml" value="0.35104166666666664" />
       </map>
