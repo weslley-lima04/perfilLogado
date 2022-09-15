@@ -3,14 +3,16 @@ package com.cantinatoshio.perfillogado;
 public class Cliente
 {
 
-    private long idCliente;
+    private int idCliente;
     private String nomeCliente;
     private String telefoneCliente;
     private String emailCliente;
 
-    public Cliente(){}
+    public Cliente()
+    {
+    }
 
-    public Cliente(long idCliente, String nomeCliente, String telefoneCliente, String emailCliente)
+    public Cliente(int idCliente, String nomeCliente, String telefoneCliente, String emailCliente)
     {
         this.idCliente = idCliente;
         this.nomeCliente = nomeCliente;
@@ -18,12 +20,12 @@ public class Cliente
         this.emailCliente = emailCliente;
     }
 
-    public long getIdCliente()
+    public int getIdCliente()
     {
         return idCliente;
     }
 
-    public void setIdCliente(long idCliente)
+    public void setIdCliente(int idCliente)
     {
         this.idCliente = idCliente;
     }
